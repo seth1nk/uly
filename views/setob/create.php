@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 
 /** @var yii\web\View $this */
-/** @var app\models\Parf $model */
+/** @var app\models\Setob $model */
 
 $this->title = 'Добавить запись';
-$this->params['breadcrumbs'][] = ['label' => 'Parves', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Setobs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="parf-create">
+<div class="setob-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

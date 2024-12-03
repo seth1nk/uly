@@ -3,14 +3,14 @@
 use yii\helpers\Html;
 
 /** @var yii\web\View $this */
-/** @var app\models\Parf $model */
+/** @var app\models\Setob $model */
 
 $this->title = 'Обновить запись: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Parves', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Setobs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
-<div class="parf-update">
+<div class="setob-update">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

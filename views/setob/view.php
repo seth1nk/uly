@@ -4,14 +4,14 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /** @var yii\web\View $this */
-/** @var app\models\Parf $model */
+/** @var app\models\Setob $model */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Parves', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Setobs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
-<div class="parf-view">
+<div class="setob-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -31,10 +31,10 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'название',
-            'бренд',
-            'объем',
-            'пол',
-            'цена',
+            'IP-адрес',
+            'MAC-адрес',
+            'местоположение',
+            'дата_установки',
         ],
     ]) ?>
 
